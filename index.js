@@ -48,6 +48,7 @@ export default {
         imageContainer.appendChild(image)
         imageContainer.style = imageContainerStyle
 
+        image.id = 'inline-markdown-image'
         image.style = imageStyle
         image.src = finalLink
         image.onload = () => imageContainer.style.display = strBlock
