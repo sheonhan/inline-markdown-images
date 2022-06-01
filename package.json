@@ -1,7 +1,7 @@
 {
   "name": "inline-markdown-images",
   "main": "index.js",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Inline markdown images",
   "repository": "https://github.com/sheonhan/inline-markdown-images",
   "license": "CC0",
