@@ -3,7 +3,7 @@
 import path from 'path'
 
 const imageStyle = `max-width: 100%;`
-const imageContainerStyle = `text-align: center; padding: 5px; display: none;`
+const imageContainerStyle = `text-align: left; padding: 5px; display: none;`
 const allMarkdownImagesRegExp = /^!\[[^\]\n]*\]\([^)\n]+\)$/g
 const markdownImageLinkCaptureGroupRegExp = /^!\[[^\]\n]*\]\(([^)\n]+)\)$/
 const networkPathRegExp = /^(?:[a-z]+:)?\/\//i
